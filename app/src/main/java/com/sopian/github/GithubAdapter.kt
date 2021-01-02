@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import android.widget.Filter
 import android.widget.Filterable
 import androidx.recyclerview.widget.RecyclerView
+import com.sopian.github.data.Github
 import com.sopian.github.databinding.ItemGithubBinding
 import java.util.*
 import kotlin.collections.ArrayList

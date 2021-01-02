@@ -1,7 +1,8 @@
-package com.sopian.github
+package com.sopian.github.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.sopian.github.data.Github
 import com.sopian.github.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.sopian.github
+package com.sopian.github.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,9 @@ import android.util.Log
 import android.view.Menu
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.sopian.github.GithubAdapter
+import com.sopian.github.R
+import com.sopian.github.data.Github
 import com.sopian.github.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -34,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerView.adapter = adapter
     }
 
-    fun getList(): ArrayList<Github> {
+    private fun getList(): ArrayList<Github> {
         val username = resources.getStringArray(R.array.username)
         val name = resources.getStringArray(R.array.name)
         val company = resources.getStringArray(R.array.company)

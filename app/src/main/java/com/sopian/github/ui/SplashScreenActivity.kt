@@ -1,8 +1,9 @@
-package com.sopian.github
+package com.sopian.github.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.sopian.github.R
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 
